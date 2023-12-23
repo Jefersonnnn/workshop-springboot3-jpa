@@ -1,8 +1,10 @@
 package com.jm.course.config;
 
+import com.jm.course.entities.Category;
 import com.jm.course.entities.Order;
 import com.jm.course.entities.User;
 import com.jm.course.entities.enums.OrderStatus;
+import com.jm.course.repositories.CategoryRepository;
 import com.jm.course.repositories.OrderRepository;
 import com.jm.course.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,8 +25,18 @@ public class TestConfig implements CommandLineRunner {
     @Autowired
     private OrderRepository orderRepository;
 
+    @Autowired
+    private CategoryRepository categoryRepository;
+
     @Override
     public void run(String... args) throws Exception {
+
+        Category cat1 = new Category(null, "Electronics");
+        Category cat2 = new Category(null, "Books");
+        Category cat3 = new Category(null, "Computers");
+
+        categoryRepository.saveAll(Arrays.asList(cat1, cat2, cat3));
+
         User u1 = new User(null, "Jeferson Machado", "jeferson@james.com.br", "988888888", "123456");
         User u2 = new User(null, "Mari Ribeiro", "mari.ribeiro@james.com.br", "988888888", "654321");
 
