@@ -42,3 +42,5 @@ git clone https://github.com/Jefersonnnn/workshop-springboot3-jpa.git
 # Autor
 
 Jeferson Machado
+
+[Prof. Nelio Alves](https://devsuperior.com.br/)
