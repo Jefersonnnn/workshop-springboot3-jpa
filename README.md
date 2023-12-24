@@ -3,8 +3,8 @@
 
 # Sobre o projeto
 
-Este projeto tem como objetivo o aprendizado no desenvolvimento de uma aplicação web usando o Java. 
-Acompanhando o curso [Java Completo 2023](https://www.udemy.com/course/java-curso-completo/).
+Meu objetivo ao criar este projeto é aprimorar minhas habilidades no desenvolvimento de aplicações web utilizando Java, enquanto acompanho o curso [Java Completo 2023](https://www.udemy.com/course/java-curso-completo/).
+Este repositório será uma referência constante para consultas futuras ao conteúdo apresentado.
 
 ## Objetivos
 - Criar projeto Spring Boot Java
